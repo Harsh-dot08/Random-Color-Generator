@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width:20vh;
+}
+h1{
+    height: 3rem;
+}
+body{
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap:5vh
+}
+.box{
+    display: flex;
+    width: 100vh;
+    justify-content: space-evenly;
+}
+button{
+    background-color: coral;
+    color:blueviolet;
+    border:1px solid blue;
+    border-radius: 1rem;
+    height: 3rem;
+    font-size: 1rem;
+    width: 5rem;
+}
+.hide{
+    display: none;
+}
